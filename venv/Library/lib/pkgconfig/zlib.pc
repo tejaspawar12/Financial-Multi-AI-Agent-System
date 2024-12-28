@@ -1,0 +1,13 @@
+prefix=A:/Agentic AI projects/Financial Agent/venv/Library
+exec_prefix=A:/Agentic AI projects/Financial Agent/venv/Library
+libdir=A:/Agentic AI projects/Financial Agent/venv/Library/lib
+sharedlibdir=A:/Agentic AI projects/Financial Agent/venv/Library/lib
+includedir=A:/Agentic AI projects/Financial Agent/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
