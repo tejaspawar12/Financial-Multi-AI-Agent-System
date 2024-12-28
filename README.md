@@ -104,6 +104,7 @@ Create a `.env` file in the root directory and add the following:
 ```env
 OPENAI_API_KEY=your_openai_api_key
 PHI_API_KEY=your_phi_api_key
+GROQ_API_KEY=your_groq_api_key
 ```
 
 ---
@@ -155,14 +156,6 @@ PHI_API_KEY=your_phi_api_key
 - Add more financial tools for in-depth analysis.
 - Extend the playground to support additional query types.
 - Optimize the agents for faster response times.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
 
 ## Acknowledgments
 
